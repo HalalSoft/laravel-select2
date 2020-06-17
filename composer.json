@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "dyaskur\\Select2\\": "src/Select2/"
+      "DYaskur\\Select2\\": "src/Select2/"
     },
     "files": [
       "src/Select2/helpers.php"
