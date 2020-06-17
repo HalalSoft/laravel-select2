@@ -1,6 +1,6 @@
 <?php
 
-namespace dyaskur\Select2;
+namespace DYaskur\Select2;
 
 use Illuminate\Support\Facades\Facade;
 

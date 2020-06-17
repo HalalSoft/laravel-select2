@@ -25,5 +25,15 @@
     "files": [
       "src/Select2/helpers.php"
     ]
-  }
-}
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "DYaskur\\Select2\\Select2ServiceProvider"
+      ],
+      "aliases": {
+        "Alert": "DYaskur\\Select2\\DYaskur"
+      }
+    }
+  },
+  "minimum-stability": "dev"}
