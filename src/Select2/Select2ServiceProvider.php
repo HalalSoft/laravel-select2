@@ -13,11 +13,12 @@ class Select2ServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-
-        $this->publishes([
-            __DIR__ . '/../config/select2.php' => config_path('select2.php'),
-        ], 'config');
-
+//        $this->publishes(
+//            [
+//                __DIR__.'/../config/select2.php' => config_path('select2.php'),
+//            ],
+//            'config'
+//        );
     }
 
     /**
@@ -27,11 +28,12 @@ class Select2ServiceProvider extends ServiceProvider
      */
     public function register()
     {
-//        $this->mergeConfigFrom(
-//            __DIR__ . '/../config/select2.php',
-//            'sweet-alert'
-//        );
-
+        $this->app->bind(
+            'dyaskur.select2',
+            function () {
+                return $this->app->make('dyaskur\Select2\Select2');
+            }
+        );
     }
 
     /**
