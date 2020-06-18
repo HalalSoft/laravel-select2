@@ -1,6 +1,6 @@
 <?php
 
-namespace DYaskur\Select2;
+namespace DYaskur\LaravelSelect2;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -14,6 +14,6 @@ class Select2 extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'dyaskur.select2';
+        return 'dyaskur.laravel-select2';
     }
 }

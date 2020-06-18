@@ -20,10 +20,10 @@
   },
   "autoload": {
     "psr-4": {
-      "DYaskur\\Select2\\": "src/Select2/"
+      "DYaskur\\LaravelSelect2\\": "src/LaravelSelect2/"
     },
     "files": [
-      "src/Select2/helpers.php"
+      "src/LaravelSelect2/helpers.php"
     ]
   },
   "extra": {
@@ -32,7 +32,7 @@
         "DYaskur\\Select2\\Select2ServiceProvider"
       ],
       "aliases": {
-        "Alert": "DYaskur\\Select2\\DYaskur"
+        "Select2": "DYaskur\\LaravelSelect2\\Select2"
       }
     }
   },
