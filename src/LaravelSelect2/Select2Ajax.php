@@ -24,7 +24,7 @@ class Select2Ajax
 //        }
 //        $data      = $data->limit(5)->get();
 
-        return  $this->config;
+        return $this->config;
     }
 
     public function fromModel($model)
