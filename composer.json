@@ -1,5 +1,5 @@
 {
-  "name": "dyaskur/laravel-select2",
+  "name": "halalsoft/laravel-select2",
   "description": "description",
   "type": "library",
   "keywords": [
@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "DYaskur\\LaravelSelect2\\": "src/LaravelSelect2/"
+      "HalalSoft\\LaravelSelect2\\": "src/LaravelSelect2/"
     },
     "files": [
       "src/LaravelSelect2/helpers.php"
@@ -29,10 +29,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "DYaskur\\Select2\\Select2ServiceProvider"
+        "HalalSoft\\Select2\\Select2ServiceProvider"
       ],
       "aliases": {
-        "Select2": "DYaskur\\LaravelSelect2\\Select2"
+        "Select2": "HalalSoft\\LaravelSelect2\\Select2"
       }
     }
   },

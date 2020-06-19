@@ -1,6 +1,6 @@
 <?php
 
-namespace DYaskur\LaravelSelect2;
+namespace HalalSoft\LaravelSelect2;
 
 
 class Select2Ajax

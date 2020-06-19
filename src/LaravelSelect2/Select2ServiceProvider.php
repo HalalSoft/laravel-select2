@@ -1,6 +1,6 @@
 <?php
 
-namespace DYaskur\LaravelSelect2;
+namespace HalalSoft\LaravelSelect2;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -29,9 +29,9 @@ class Select2ServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind(
-            'dyaskur.laravel-select2',
+            'halalsoft.laravel-select2',
             function () {
-                return $this->app->make('DYaskur\LaravelSelect2\Select2Ajax');
+                return $this->app->make('HalalSoft\LaravelSelect2\Select2Ajax');
             }
         );
     }
@@ -44,7 +44,7 @@ class Select2ServiceProvider extends ServiceProvider
     public function provides()
     {
         return [
-            'dyaskur.laravel-select2',
+            'halalsoft.laravel-select2',
         ];
     }
 }
